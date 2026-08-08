@@ -20,13 +20,14 @@ This dashboard is presentation only. Data are copied from the rights-safe `ADAA_
 
 ## Included downloads
 
-- `downloads/ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE.pdf`
+- `downloads/ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE.pdf`
 - `downloads/ADAA_Public_Replication_Package_v1.0.2.zip`
 
 ## Live links
 
 - Dashboard: https://slackquant80.github.io/adaa-slackquant/
 - Public replication repository: https://github.com/slackquant80/adaa-decision-diversification
+- Archived replication release (v1.0.2): https://doi.org/10.5281/zenodo.21853533
 
 ## Scope
 

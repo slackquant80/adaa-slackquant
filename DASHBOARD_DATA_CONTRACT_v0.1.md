@@ -7,7 +7,7 @@ The dashboard is a presentation layer only. It does not re-download market data,
 ## Frozen anchors
 
 - Scientific freeze: v0.34
-- Paper: `ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE`
+- Paper: `ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE`
 - Public replication: v1.0.2
 - Performance simulation: June 2008–July 2026 (218 monthly holding returns)
 - Decision-Space common target-weight history: July 2008–June 2026 (216 months)
@@ -24,3 +24,7 @@ The current public ADAA sleeve set is HAA / BAA Aggressive / ADM / FAA / LAA. Th
 
 - Research dashboard: https://slackquant80.github.io/adaa-slackquant/
 - Replication repository: https://github.com/slackquant80/adaa-decision-diversification
+
+## Archival DOI
+
+The immutable replication v1.0.2 release is archived at Zenodo: https://doi.org/10.5281/zenodo.21853533.

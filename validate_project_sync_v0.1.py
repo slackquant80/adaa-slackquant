@@ -7,7 +7,7 @@ errs=[]; notes=[]; checks=0
 
 def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 # internal dashboard validation
-for req in ['index.html','assets/css/style.css','assets/js/data.js','assets/js/app.js','DATA_MANIFEST_SHA256.csv','downloads/ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE.pdf','downloads/ADAA_Public_Replication_Package_v1.0.2.zip']:
+for req in ['index.html','assets/css/style.css','assets/js/data.js','assets/js/app.js','DATA_MANIFEST_SHA256.csv','downloads/ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE.pdf','downloads/ADAA_Public_Replication_Package_v1.0.2.zip']:
     checks+=1
     if not (dash/req).exists(): errs.append('missing '+req)
 rows=list(csv.DictReader(open(dash/'DATA_MANIFEST_SHA256.csv',encoding='utf-8')))
@@ -23,14 +23,14 @@ for p in [dash/'index.html',dash/'assets/js/app.js']:
         if bad in txt: errs.append(f'external/runtime dependency {bad} in {p.name}')
 # frozen anchors
 js=(dash/'assets/js/data.js').read_text(encoding='utf-8')
-for token in ['"historical_2023_rank":735','"total_five_rule_sets":4368','"decision_months":216','"performance_months":218','"historical_2023_score":0.8171374401867475','"paper_version":"v1.16 FINAL"']:
+for token in ['"historical_2023_rank":735','"total_five_rule_sets":4368','"decision_months":216','"performance_months":218','"historical_2023_score":0.8171374401867475','"paper_version":"v1.17 FINAL"']:
     checks+=1
     if token not in js: errs.append('frozen anchor missing '+token)
 # project sync when installed under 05_ADAA/07_Dashboard
 if project and project.name=='05_ADAA':
-    canon_paper=project/'05_Practical_Paper/01_Manuscript/ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE.pdf'
+    canon_paper=project/'05_Practical_Paper/01_Manuscript/ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE.pdf'
     canon_repl=project/'06_Replication/ADAA_Public_Replication_Package_v1.0.2.zip'
-    for canon,copy,label in [(canon_paper,dash/'downloads/ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE.pdf','paper'),(canon_repl,dash/'downloads/ADAA_Public_Replication_Package_v1.0.2.zip','replication')]:
+    for canon,copy,label in [(canon_paper,dash/'downloads/ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE.pdf','paper'),(canon_repl,dash/'downloads/ADAA_Public_Replication_Package_v1.0.2.zip','replication')]:
         checks+=1
         if not canon.exists(): errs.append('canonical '+label+' missing: '+str(canon))
         elif sha(canon)!=sha(copy): errs.append(label+' download copy differs from canonical project file')
