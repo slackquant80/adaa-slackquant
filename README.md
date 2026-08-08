@@ -16,12 +16,17 @@ The directory can be published as-is on GitHub Pages or any static host. Keep th
 
 ## Source-of-truth rule
 
-This dashboard is presentation only. Data are copied from the rights-safe `ADAA_Public_Replication_Package_v1.0.zip`; the interface does not download data or re-run strategy logic. See `DASHBOARD_DATA_CONTRACT_v0.1.md` and `DATA_MANIFEST_SHA256.csv`.
+This dashboard is presentation only. Data are copied from the rights-safe `ADAA_Public_Replication_Package_v1.0.2.zip`; the interface does not download data or re-run strategy logic. See `DASHBOARD_DATA_CONTRACT_v0.1.md` and `DATA_MANIFEST_SHA256.csv`.
 
 ## Included downloads
 
-- `downloads/ADAA_SSRN_Working_Paper_v1.15_FINAL.pdf`
-- `downloads/ADAA_Public_Replication_Package_v1.0.zip`
+- `downloads/ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE.pdf`
+- `downloads/ADAA_Public_Replication_Package_v1.0.2.zip`
+
+## Live links
+
+- Dashboard: https://slackquant80.github.io/adaa-slackquant/
+- Public replication repository: https://github.com/slackquant80/adaa-decision-diversification
 
 ## Scope
 

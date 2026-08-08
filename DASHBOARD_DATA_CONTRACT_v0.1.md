@@ -2,13 +2,13 @@
 
 ## Principle
 
-The dashboard is a presentation layer only. It does not re-download market data, re-run strategy rules, optimize weights, or recompute paper results. All displayed research results are read from rights-safe files already included in `ADAA_Public_Replication_Package_v1.0.zip`.
+The dashboard is a presentation layer only. It does not re-download market data, re-run strategy rules, optimize weights, or recompute paper results. All displayed research results are read from rights-safe files already included in `ADAA_Public_Replication_Package_v1.0.2.zip`.
 
 ## Frozen anchors
 
 - Scientific freeze: v0.34
-- Paper: `ADAA_SSRN_Working_Paper_v1.15_FINAL`
-- Public replication: v1.0
+- Paper: `ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE`
+- Public replication: v1.0.2
 - Performance simulation: June 2008–July 2026 (218 monthly holding returns)
 - Decision-Space common target-weight history: July 2008–June 2026 (216 months)
 
@@ -19,3 +19,8 @@ The current public ADAA sleeve set is HAA / BAA Aggressive / ADM / FAA / LAA. Th
 ## Distribution
 
 `assets/js/data.js` is generated from the copied rights-safe source CSVs under `data/source/`. `DATA_MANIFEST_SHA256.csv` records their hashes and original replication paths. The browser reads the generated JavaScript object so the dashboard also works when `index.html` is opened directly from disk without a web server.
+
+## Public links
+
+- Research dashboard: https://slackquant80.github.io/adaa-slackquant/
+- Replication repository: https://github.com/slackquant80/adaa-decision-diversification

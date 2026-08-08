@@ -6,13 +6,13 @@
 
 Branding layer: **ADAA | SlackQuant**. Branding changes do not alter scientific content, source data, calculations, or paper/replication artifacts.
 
-No scientific result is recomputed in the browser. The dashboard reads a generated JavaScript object built only from rights-safe CSVs already contained in `ADAA_Public_Replication_Package_v1.0.zip`.
+No scientific result is recomputed in the browser. The dashboard reads a generated JavaScript object built only from rights-safe CSVs already contained in `ADAA_Public_Replication_Package_v1.0.2.zip`.
 
 ## Frozen anchors checked
 
-- paper: `ADAA_SSRN_Working_Paper_v1.15_FINAL`
+- paper: `ADAA_SSRN_Working_Paper_v1.16_FINAL_PUBLIC_RELEASE`
 - scientific freeze: v0.34
-- public replication: v1.0
+- public replication: v1.0.2
 - performance sample: 218 months, June 2008–July 2026
 - Decision-Space common history: 216 months, July 2008–June 2026
 - 2023 strategy-pool five-rule combinations: 4,368
@@ -22,13 +22,13 @@ No scientific result is recomputed in the browser. The dashboard reads a generat
 
 ## Source and project synchronization
 
-`validate_project_sync_v0.1.py` was run in a simulated current project layout containing the canonical v1.15 PDF and the canonical public replication v1.0 ZIP.
+`validate_project_sync_v0.1.py` was run in a simulated current project layout containing the canonical v1.16 PDF and the canonical public replication v1.0.2 ZIP.
 
 - checks: 61
 - failures: 0
 - all 19 dashboard source CSVs matched the corresponding files inside the public replication ZIP by SHA-256
-- dashboard paper download matched the canonical v1.15 PDF by SHA-256
-- dashboard replication download matched the canonical v1.0 replication ZIP by SHA-256
+- dashboard paper download matched the canonical v1.16 PDF by SHA-256
+- dashboard replication download matched the canonical v1.0.2 replication ZIP by SHA-256
 
 ## Static and code checks
 
@@ -72,3 +72,10 @@ A final visible-text audit found no spelling errors. Three reader-facing consist
 - runtime display of `BAA_Aggressive` / `BAA_Balanced` -> spaces instead of underscores.
 
 The validator now guards against regressions in these labels.
+
+## Public-link synchronization
+
+- Dashboard URL: `https://slackquant80.github.io/adaa-slackquant/`
+- Public replication repository: `https://github.com/slackquant80/adaa-decision-diversification`
+- The replication card exposes both the immutable v1.0.2 ZIP download and the browsable GitHub repository.
+- The paper download is v1.16 FINAL PUBLIC RELEASE and contains both public URLs in its Data and Code Availability section.
