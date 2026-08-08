@@ -10,7 +10,7 @@ No scientific result is recomputed in the browser. The dashboard reads a generat
 
 ## Frozen anchors checked
 
-- paper: `ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE`
+- paper: `ADAA_SSRN_Working_Paper_v1.21_FINAL_PUBLIC_RELEASE`
 - scientific freeze: v0.34
 - public replication: v1.0.2
 - performance sample: 218 months, June 2008–July 2026
@@ -22,12 +22,12 @@ No scientific result is recomputed in the browser. The dashboard reads a generat
 
 ## Source and project synchronization
 
-`validate_project_sync_v0.1.py` was run in a simulated current project layout containing the canonical v1.17 PDF and the canonical public replication v1.0.2 ZIP.
+`validate_project_sync_v0.1.py` was run in a simulated current project layout containing the canonical v1.21 PDF and the canonical public replication v1.0.2 ZIP.
 
 - checks: 61
 - failures: 0
 - all 19 dashboard source CSVs matched the corresponding files inside the public replication ZIP by SHA-256
-- dashboard paper download matched the canonical v1.17 PDF by SHA-256
+- dashboard paper download matched the canonical v1.21 PDF by SHA-256
 - dashboard replication download matched the canonical v1.0.2 replication ZIP by SHA-256
 
 ## Static and code checks
@@ -78,8 +78,12 @@ The validator now guards against regressions in these labels.
 - Dashboard URL: `https://slackquant80.github.io/adaa-slackquant/`
 - Public replication repository: `https://github.com/slackquant80/adaa-decision-diversification`
 - The replication card exposes both the immutable v1.0.2 ZIP download and the browsable GitHub repository.
-- The paper download is v1.17 FINAL PUBLIC RELEASE and contains the dashboard URL, replication-repository URL, and version-specific Zenodo DOI in its Data and Code Availability section.
+- The paper download is v1.21 FINAL PUBLIC RELEASE and contains the dashboard URL, replication-repository URL, and version-specific Zenodo DOI in its Data and Code Availability section.
 
 ## Archival link
 
 The Research & Replication card exposes the version-specific Zenodo DOI for the immutable replication v1.0.2 release: https://doi.org/10.5281/zenodo.21853533.
+
+## v1.21 typography-final synchronization
+
+The dashboard paper download was advanced from v1.17 to `ADAA_SSRN_Working_Paper_v1.21_FINAL_PUBLIC_RELEASE.pdf` after the final typography/layout QA. The scientific freeze remains v0.34 and public replication remains immutable v1.0.2. Paragraph text, native-table text, and all 12 embedded figure/media files are unchanged from v1.17; the revision is typography/layout/metadata only.

@@ -7,7 +7,7 @@ The dashboard is a presentation layer only. It does not re-download market data,
 ## Frozen anchors
 
 - Scientific freeze: v0.34
-- Paper: `ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE`
+- Paper: `ADAA_SSRN_Working_Paper_v1.21_FINAL_PUBLIC_RELEASE`
 - Public replication: v1.0.2
 - Performance simulation: June 2008–July 2026 (218 monthly holding returns)
 - Decision-Space common target-weight history: July 2008–June 2026 (216 months)

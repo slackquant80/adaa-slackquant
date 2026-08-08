@@ -2,7 +2,7 @@ from pathlib import Path
 import csv, hashlib, json, re, sys
 root=Path(__file__).resolve().parent
 errors=[]
-for req in ['index.html','assets/css/style.css','assets/js/data.js','assets/js/app.js','DATA_MANIFEST_SHA256.csv','downloads/ADAA_SSRN_Working_Paper_v1.17_FINAL_PUBLIC_RELEASE.pdf','downloads/ADAA_Public_Replication_Package_v1.0.2.zip']:
+for req in ['index.html','assets/css/style.css','assets/js/data.js','assets/js/app.js','DATA_MANIFEST_SHA256.csv','downloads/ADAA_SSRN_Working_Paper_v1.21_FINAL_PUBLIC_RELEASE.pdf','downloads/ADAA_Public_Replication_Package_v1.0.2.zip']:
     if not (root/req).exists(): errors.append('missing '+req)
 with open(root/'DATA_MANIFEST_SHA256.csv',encoding='utf-8') as f:
     for r in csv.DictReader(f):
@@ -11,7 +11,7 @@ with open(root/'DATA_MANIFEST_SHA256.csv',encoding='utf-8') as f:
         h=hashlib.sha256(p.read_bytes()).hexdigest()
         if h!=r['sha256']: errors.append('hash mismatch '+r['file'])
 text=(root/'assets/js/data.js').read_text(encoding='utf-8')
-for token in ['"historical_2023_rank":735','"total_five_rule_sets":4368','"decision_months":216','"performance_months":218','"paper_version":"v1.17 FINAL"','"replication_version":"v1.0.2"']:
+for token in ['"historical_2023_rank":735','"total_five_rule_sets":4368','"decision_months":216','"performance_months":218','"paper_version":"v1.21 FINAL"','"replication_version":"v1.0.2"']:
     if token not in text: errors.append('missing frozen anchor '+token)
 html=(root/'index.html').read_text(encoding='utf-8')
 app=(root/'assets/js/app.js').read_text(encoding='utf-8')
