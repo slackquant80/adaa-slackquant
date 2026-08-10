@@ -1,4 +1,4 @@
-# ADAA | SlackQuant — Public Research Dashboard v0.2.1
+# ADAA | SlackQuant — Public Research Dashboard v0.2.2
 
 Static, offline-capable research interface for **Diversify the Decisions, Not Just the Assets**.
 
@@ -20,12 +20,13 @@ This dashboard is presentation only. Display data are copied from the validated,
 
 ## Included downloads
 
-- `downloads/ADAA_SSRN_Working_Paper_v1.21_FINAL_PUBLIC_RELEASE.pdf`
+- `downloads/ADAA_SSRN_Working_Paper_v1.22_FINAL_PUBLIC_RELEASE.pdf`
 - `downloads/ADAA_Public_Replication_Package_v1.0.2.zip`
 
 ## Live links
 
 - Dashboard: https://slackquant80.github.io/adaa-slackquant/
+- SSRN paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7251518
 - Public replication repository: https://github.com/slackquant80/adaa-decision-diversification
 - Archived replication release (v1.0.2): https://doi.org/10.5281/zenodo.21853533
 
