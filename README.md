@@ -2,6 +2,12 @@
 
 Static, offline-capable research interface for **Diversify the Decisions, Not Just the Assets**.
 
+## Current public version
+
+- **SSRN version:** v1.23
+- **SSRN Abstract ID:** 7251518
+- **Frozen public replication snapshot:** v1.0.2
+
 ## Branding
 
 The public interface is branded **ADAA | SlackQuant**. SlackQuant is the interface/research-brand layer only; the canonical paper title, authorship, scientific freeze, replication files, and research results are unchanged.
