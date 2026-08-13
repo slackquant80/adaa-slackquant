@@ -20,7 +20,7 @@ This dashboard is presentation only. Display data are copied from the validated,
 
 ## Included downloads
 
-- `downloads/ADAA_SSRN_Working_Paper_v1.22_FINAL_PUBLIC_RELEASE.pdf`
+- `downloads/ADAA_SSRN_Working_Paper_v1.23_FINAL_PUBLIC_RELEASE.pdf`
 - `downloads/ADAA_Public_Replication_Package_v1.0.2.zip`
 
 ## Live links
