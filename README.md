@@ -1,4 +1,4 @@
-# ADAA | SlackQuant — Public Research Dashboard v0.2.3
+# ADAA | SlackQuant — Public Research Dashboard v0.2.4
 
 Static, offline-capable research interface for **Diversify the Decisions, Not Just the Assets**.
 
