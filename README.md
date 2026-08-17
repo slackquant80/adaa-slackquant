@@ -1,10 +1,10 @@
-# ADAA | SlackQuant — Public Research Dashboard v0.2.5
+# ADAA | SlackQuant ??Public Research Dashboard v0.2.5
 
 Static, offline-capable research interface for **Diversify the Decisions, Not Just the Assets**.
 
 ## Current public version
 
-- **SSRN version:** v1.25
+- **SSRN version:** v1.28
 - **SSRN Abstract ID:** 7251518
 - **Current public replication release:** v1.1.2
 - **Historical replication predecessor:** v1.0.2
@@ -27,7 +27,7 @@ This dashboard is presentation only. Display data are copied from the validated,
 
 ## Included downloads
 
-- `downloads/ADAA_SSRN_Working_Paper_v1.25_FINAL_FREEZE.pdf`
+- Current paper access: SSRN 7251518 (v1.28); the dashboard no longer presents the historical v1.25 local PDF as current.
 - `downloads/ADAA_Public_Replication_Package_v1.1.2.zip`
 
 ## Live links
@@ -44,4 +44,4 @@ No live signals, no current holdings, no portfolio recommendation, and no dashbo
 
 ## Rights
 
-Copyright © 2026 Sungkyu Lee. All rights reserved. No open-source license is granted for the repository as a whole. See `RIGHTS_NOTICE.md`.
+Copyright 짤 2026 Sungkyu Lee. All rights reserved. No open-source license is granted for the repository as a whole. See `RIGHTS_NOTICE.md`.
