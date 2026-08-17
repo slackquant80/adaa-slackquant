@@ -1,4 +1,4 @@
-# ADAA | SlackQuant ??Public Research Dashboard v0.2.5
+# ADAA | SlackQuant — Public Research Dashboard v0.2.5
 
 Static, offline-capable research interface for **Diversify the Decisions, Not Just the Assets**.
 
@@ -44,4 +44,4 @@ No live signals, no current holdings, no portfolio recommendation, and no dashbo
 
 ## Rights
 
-Copyright 짤 2026 Sungkyu Lee. All rights reserved. No open-source license is granted for the repository as a whole. See `RIGHTS_NOTICE.md`.
+Copyright © 2026 Sungkyu Lee. All rights reserved. No open-source license is granted for the repository as a whole. See `RIGHTS_NOTICE.md`.
